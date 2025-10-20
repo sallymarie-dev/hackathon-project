@@ -4,9 +4,12 @@ import Genre from './pages/Genre'
 import Ratings from './pages/Ratings'
 import data from './data.json'
 import Title from './pages/Title'
-console.log(data.Title)
-console.log(data.Genre)
-console.log(data.Ratings)
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+
+// console.log(data.Title)
+// console.log(data.Genre)
+// console.log(data.Ratings)
 
 
 function App() {
@@ -40,11 +43,12 @@ function App() {
     <>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-around" }}>
         <nav>
+          <div className='title-header'>
           <h1>Netflix Movies</h1>
           {pageContent}
-          <button type="button" onClick={titlePage}>Home</button>
-          <button type="button" onClick={genrePage}>Genre</button>
-          <button type="button" onClick={ratingsPage}>Ratings</button>
+          <button type="button"className="button-style" onClick={titlePage}>Home</button>
+          <button type="button" className="button-style" onClick={genrePage}>Genre</button>
+          <button type="button" className="button-style" onClick={ratingsPage}>Ratings</button></div>
         </nav>
       </div>
 
