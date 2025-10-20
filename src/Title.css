@@ -15,6 +15,7 @@ h3 {
 body {
   background-color: red;
   
+  
 }
 .button-style {
   flex-direction: row;
@@ -34,4 +35,8 @@ body {
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+p {
+  font-size:20px;
 }

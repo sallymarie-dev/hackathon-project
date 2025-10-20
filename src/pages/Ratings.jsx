@@ -54,13 +54,13 @@ export default function Ratings({ data }) {
             </div>
 
             <h2>Movies:</h2>
-            <ul>
+            <p>
                 {filteredList.length === 0 ? (
-                    <li>No movies found</li>
+                    <p>No movies found</p>
                 ) : (
-                    filteredList.map((movie) => <li key={movie.id}>{movie.Title}</li>)
+                    filteredList.map((movie) => <p key={movie.id}>{movie.Title}</p>)
                 )}
-            </ul>
+            </p>
         </>
     );
 }
