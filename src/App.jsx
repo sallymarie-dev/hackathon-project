@@ -4,9 +4,12 @@ import Genre from './pages/Genre'
 import Ratings from './pages/Ratings'
 import data from './data.json'
 import Title from './pages/Title'
-console.log(data.Title)
-console.log(data.Genre)
-console.log(data.Ratings)
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+
+// console.log(data.Title)
+// console.log(data.Genre)
+// console.log(data.Ratings)
 
 
 function App() {
