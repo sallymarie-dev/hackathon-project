@@ -1,0 +1,37 @@
+h3 {
+    color: antiquewhite;
+    border-style: inset;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.title-header {
+  font-size: 35px;
+  font-weight: 500px;
+  letter-spacing: 1px;
+  text-align: center;
+  background: linear-gradient(to right, red);
+}
+body {
+  background-color: red;
+  
+}
+.button-style {
+  flex-direction: row;
+  align-items: center;
+  margin: 2px;
+  justify-content: space-around;
+
+  background-color: black;
+  
+
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 7px;
+  border-radius: 30px;
+  margin: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

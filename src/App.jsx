@@ -40,11 +40,12 @@ function App() {
     <>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-around" }}>
         <nav>
+          <div className='title-header'>
           <h1>Netflix Movies</h1>
           {pageContent}
-          <button type="button" onClick={titlePage}>Home</button>
-          <button type="button" onClick={genrePage}>Genre</button>
-          <button type="button" onClick={ratingsPage}>Ratings</button>
+          <button type="button"className="button-style" onClick={titlePage}>Home</button>
+          <button type="button" className="button-style" onClick={genrePage}>Genre</button>
+          <button type="button" className="button-style" onClick={ratingsPage}>Ratings</button></div>
         </nav>
       </div>
 
